@@ -1,0 +1,19 @@
+{
+    "name": "cakeweb/simpleimage",
+    "description": "Extensão da classe claviska/SimpleImage",
+    "type": "git",
+    "authors": [
+        {
+            "name": "CakeWeb",
+            "email": "contato@cakeweb.com.br"
+        }
+    ],
+    "require": {
+        "abeautifulsite/simpleimage": "3.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeWeb\\": "src/"
+        }
+    }
+}
